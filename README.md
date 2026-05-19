@@ -26,12 +26,17 @@ dergi_prod/
 ├── requirements.txt       # Python paket listesi (pinli)
 ├── README.md              # Bu doküman
 ├── ortalama.md            # Zamanlama referansı ve eşik değerler
+├── flowChart.png          # Proje akış şeması
 ├── venv/                  # Python sanal ortamı (setup.sh ile oluşur)
 └── outputs/               # Çıktılar
     ├── result_*.json      # Ham veri
     ├── result_*.csv       # Düzleştirilmiş CSV
     └── scrape.log         # Çalıştırma özetleri (her çalıştırmada append)
 ```
+
+## Proje Akış Şeması
+
+![Proje Akış Şeması](flowChart.png)
 
 ## Gereksinimler
 
